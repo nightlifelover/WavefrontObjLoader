@@ -9,8 +9,8 @@ int main(int argc, char *argv[])
     const int cSize = 1000;
 
     ObjLoader objLoader;
-    std::string wavefrontDir = "Wavefront/building/";
-    std::string fileName = "building.obj";
+    std::string wavefrontDir = "/Users/nils/Develop/WavefrontObjLoader/Wavefront/building/";
+    std::string fileName = "Victorian.obj";
     objLoader.LoadOBJ(wavefrontDir, fileName);
 
     QSurfaceFormat format;
